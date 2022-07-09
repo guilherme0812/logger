@@ -24,7 +24,7 @@
 
     string filePath2 =  @"C:\Projects\csharp\arquivo" +fileNumber + 1 + ".txt";
 
-    // Search for new files
+    // Search for new
     if (File.Exists(filePath2))
     {
       ReadFIle(fileNumber + 1);
